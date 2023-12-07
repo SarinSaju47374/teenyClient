@@ -3,7 +3,7 @@ import axios from "../axios";
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from "jwt-decode";
 import { useDispatch } from "react-redux";
-import "./login.css"
+import "./Login.css"
 import { useNavigate } from 'react-router-dom';
 import {loginUser, logoutUser} from "../toolkit/userSlice.js"
 import {message } from 'antd';
