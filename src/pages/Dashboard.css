@@ -1,0 +1,15 @@
+.table-container{
+    width:80%;
+    margin:2rem auto;
+    text-align: center;
+}
+.ant-table-cell{
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    .table-container{
+        width:100%;
+        
+    }
+    
+}
